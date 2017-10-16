@@ -4,13 +4,13 @@ Object recognition using OpenCV
 Docker image url: https://hub.docker.com/r/eagercode/recognition/
 
 ## Run Container
-```docker run -itd eagercode/recognition```
+```docker run -itd eagercode/recognition:3.1.0```
 
 With name: 
-```docker run -itd --name=recognition eagercode/recognition```
+```docker run -itd --name=recognition eagercode/recognition:3.1.0```
 
 With volume (windows directory ```C:/recognition``` mapped with container ```/tmp``` directory): 
-```docker run -itd -v C:/recognition:/tmp eagercode/recognition```
+```docker run -itd -v C:/recognition:/tmp eagercode/recognition:3.1.0```
 
 ## Examples
 Put ```examples/image recognition``` into volume directory (e.g. ```C:/recognition```)
