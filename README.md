@@ -1,8 +1,7 @@
 ## Recognition
 Object recognition using OpenCV
 
-Docker image url: 
-```https://hub.docker.com/r/eagercode/recognition/```
+Docker image url: https://hub.docker.com/r/eagercode/recognition/
 
 ## Run Container
 ```docker run -itd eagercode/recognition```
