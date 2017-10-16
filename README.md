@@ -14,7 +14,7 @@ With volume (windows directory "C:/recognition" mapped with container "/tmp" dir
 ```docker run -itd -v C:/recognition:/tmp eagercode/recognition```
 
 ## Examples
-Put examples/image recognition into volume directory (e.g. C:/recognition)
+Put ```examples/image``` recognition into volume directory (e.g. C:/recognition)
 
 Cat face recognition command: 
 ```docker exec -it recognition python3.5 /tmp/detect.py --cascade /tmp/haarcascade_frontalcatface.xml --image /tmp/images/02.jpg```
