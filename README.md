@@ -1,2 +1,2 @@
-# recognition
+# Recognition
 Object recognition using OpenCV
